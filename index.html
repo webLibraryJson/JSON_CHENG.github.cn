@@ -22,7 +22,7 @@
     <link rel="alternative" href="/atom.xml" title="JSON_CHENG的博客" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/assets/blogImg/jsonChengicon.jpg">
   
   <link rel="stylesheet" type="text/css" href="/./main.0cf68a.css">
   <style type="text/css">
@@ -46,7 +46,7 @@
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="/assets/blogImg/JsonCheng.jpg" class="js-avatar">
+			<img src="/assets/blogImg/jsonChengicon.jpg" class="js-avatar">
 		</a>
 		<hgroup>
 		  <h1 class="header-author"><a href="/"></a></h1>
@@ -102,7 +102,7 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="/assets/blogImg/JsonCheng.jpg" class="js-avatar">
+				<img src="/assets/blogImg/jsonChengicon.jpg" class="js-avatar">
 			</div>
 			<hgroup>
 			  <h1 class="header-author js-header-author"></h1>
@@ -185,10 +185,10 @@
 <p>图片：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![图片描述](图片URL)</span><br></pre></td></tr></table></figure>
 <h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; 引用文本</span><br></pre></td></tr></table></figure>
-<h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">/```语言</span><br><span class="line">代码块</span><br></pre></td></tr></table></figure>
+<h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">```语言</span><br><span class="line">代码块</span><br></pre></td></tr></table></figure>
 <h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">| 列1      | 列2      |</span><br><span class="line">| -------- | -------- |</span><br><span class="line">| 单元格1  | 单元格2  |</span><br><span class="line">| 单元格3  | 单元格4  |</span><br></pre></td></tr></table></figure>
 <h3 id="水平线"><a href="#水平线" class="headerlink" title="水平线"></a>水平线</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">---</span><br></pre></td></tr></table></figure>
-<h3 id="代码语言"><a href="#代码语言" class="headerlink" title="代码语言"></a>代码语言</h3><img src="/img/fengjing.jpg" alt="示例图片" width="300px" height="200px">
+<h3 id="markdown文件中写代码截图"><a href="#markdown文件中写代码截图" class="headerlink" title="markdown文件中写代码截图"></a>markdown文件中写代码截图</h3><img src="/assets/img/markdownBasicGrammar/markdownHtml.png" alt="写代码展示" >
 
       
 
@@ -317,8 +317,10 @@
 <li>全局安装Hexo<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure></li>
 <li>安装Hexo完成后，请执行下列命令。 “folder”是文件名<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo initial &lt;folder&gt;</span><br><span class="line">$ cd &lt;folder&gt;</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure></li>
 <li>Hexo依赖安装完成，启动Hexo项目 启动成功在浏览器输入localhost:4000打开项目<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
-<img src="/source/assets/img/blogBuilding/hexoStart.png" alt="hexo启动成功"></li>
+<img src="/assets/img/blogBuilding/hexoStart.png" alt="hexo启动成功截图"></li>
 <li>Hexo切换不同风格的主题<br>在<a target="_blank" rel="noopener" href="https://hexo.io/themes/">Hexo&#x2F;themes</a>找到自己想要的主题，然后根据网页说明操作安装。在项目的配置文件_config.yml中修改theme<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: 主题名字</span><br></pre></td></tr></table></figure></li>
+<li>仓库搭建好后，在配置文件_config.yml中配置，实现快速部署命令<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+<img src="/assets/img/blogBuilding/ksbs.png" alt="hexo部署服务器配置"></li>
 </ol>
 <h3 id="Hexo搭建的博客部署到github上面"><a href="#Hexo搭建的博客部署到github上面" class="headerlink" title="Hexo搭建的博客部署到github上面"></a>Hexo搭建的博客部署到github上面</h3><ul>
 <li>创建一个新的GitHub仓库：在GitHub上创建一个新的仓库，用于存储您的博客内容。您可以将仓库命名为 .github.io，其中 是您的GitHub用户名。请确保仓库是公开的，这样才能通过GitHub Pages进行访问。</li>
