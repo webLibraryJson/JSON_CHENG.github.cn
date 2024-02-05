@@ -319,14 +319,20 @@
 <li>Hexo依赖安装完成，启动Hexo项目 启动成功在浏览器输入localhost:4000打开项目<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
 <img src="/assets/img/blogBuilding/hexoStart.png" alt="hexo启动成功截图"></li>
 <li>Hexo切换不同风格的主题<br>在<a target="_blank" rel="noopener" href="https://hexo.io/themes/">Hexo&#x2F;themes</a>找到自己想要的主题，然后根据网页说明操作安装。在项目的配置文件_config.yml中修改theme<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: 主题名字</span><br></pre></td></tr></table></figure></li>
-<li>仓库搭建好后，在配置文件_config.yml中配置，实现快速部署命令<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
-<img src="/assets/img/blogBuilding/ksbs.png" alt="hexo部署服务器配置"></li>
 </ol>
 <h3 id="Hexo搭建的博客部署到github上面"><a href="#Hexo搭建的博客部署到github上面" class="headerlink" title="Hexo搭建的博客部署到github上面"></a>Hexo搭建的博客部署到github上面</h3><ul>
-<li>创建一个新的GitHub仓库：在GitHub上创建一个新的仓库，用于存储您的博客内容。您可以将仓库命名为 .github.io，其中 是您的GitHub用户名。请确保仓库是公开的，这样才能通过GitHub Pages进行访问。</li>
-<li>将博客内容推送到GitHub仓库：将生成的博客内容推送到您在第一步创建的GitHub仓库中。您可以使用Git命令或者GitHub Desktop等工具来推送文件。</li>
-<li>启用GitHub Pages：在GitHub仓库的设置中，找到 “GitHub Pages” 选项，并选择要作为博客根目录的分支（通常是 master 分支）。保存设置后，GitHub Pages将会为您的博客生成一个访问链接。</li>
-<li>访问您的博客：通过访问 .github.io，您现在应该能够在GitHub Pages上看到您的博客了。</li>
+<li><p>创建一个新的GitHub仓库：在GitHub上创建一个新的仓库，用于存储您的博客内容。您可以将仓库命名为 .github.io，其中 是您的GitHub用户名。请确保仓库是公开的，这样才能通过GitHub Pages进行访问。</p>
+</li>
+<li><p>将博客内容推送到GitHub仓库：将生成的博客内容推送到您在第一步创建的GitHub仓库中。您可以使用Git命令或者GitHub Desktop等工具来推送文件。</p>
+</li>
+<li><p>启用GitHub Pages：在GitHub仓库的设置中，找到 “GitHub Pages” 选项，并选择要作为博客根目录的分支（通常是 master 分支）。保存设置后，GitHub Pages将会为您的博客生成一个访问链接。</p>
+</li>
+<li><p>访问您的博客：通过访问 .github.io，您现在应该能够在GitHub Pages上看到您的博客了。</p>
+</li>
+<li><p>仓库搭建好后，在配置文件_config.yml中配置，实现快速部署命令</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+<p><img src="/assets/img/blogBuilding/ksbs.png" alt="hexo部署服务器配置"></p>
+</li>
 </ul>
 
       
